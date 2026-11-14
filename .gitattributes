@@ -1,0 +1,6 @@
+# Ocultar scripts/py de las estadisticas de lenguaje
+*.sh linguist-vendored
+*.py linguist-vendored
+
+# Tratar binarios sin extension como codigo C++ en GitHub
+* linguist-language=C++
